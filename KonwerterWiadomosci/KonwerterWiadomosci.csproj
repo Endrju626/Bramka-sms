@@ -7,4 +7,13 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SMSAPI.pl" Version="2.2.0" />
+    <PackageReference Include="Twilio" Version="6.6.1" />
+  </ItemGroup>
+
 </Project>
